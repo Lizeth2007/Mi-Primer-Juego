@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    height: 100vh;
+    margin: 2rem auto;
+}
+.contenedor{
+    width: 570px;
+    height: 300px;
+    position: relative;
+    border: 1px solid rgb(0, 17, 255);
+    margin: 3rem auto;
+}
+.bloque{
+
+    height: 20px;
+    width: 100px;
+    background-color: rgb(253, 0, 0);
+    position: absolute;
+}
+.usuario{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(0,17, 255);
+}
+.bola{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(248, 8, 216);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/8b/48/ea/8b48ea45f5c918fea26acc2f6c6fce1f.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
